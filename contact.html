@@ -5,7 +5,7 @@
   <link href="Azucar-css.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div class="navigation">
+<div class="navigation">
     <nav>
       <ul class="navbar">
         <li class="nav"><a href="index.html">Home</a></li>
@@ -15,9 +15,11 @@
       </ul>
     </nav>
   </div>
+
+<h3>Where to find us</h3>
+
 <div class="googlemaps">
-        <h3>Where to find us</h3>
-        <script>
+  <script>
       function initMap() {
         var uluru = {lat: -25.363, lng: 131.044};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -30,9 +32,38 @@
         });
       }
     </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgZOk6WMOiBu6kWCa8nXe0gvsZ_G2mM1g&callback=initMap">
-    </script>
+  <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgZOk6WMOiBu6kWCa8nXe0gvsZ_G2mM1g&callback=initMap">
+</script>
+
 </div>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+<!--
+<script>
+function initMap() {
+var uluru = {lat: -25.363, lng: 131.044};
+var map = new google.maps.Map(document.getElementById('map'), {
+  zoom: 4,
+  center: uluru
+});
+var marker = new google.maps.Marker({
+  position: uluru,
+  map: map
+});
+}
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=
+</script>
+
+-!>
