@@ -1,6 +1,8 @@
 body {
-/*background-color: white;*/
+/*background-color: white;
+font-family: 'Slabo 27px', serif;*/
 background-color:rgb(182,193,255);
+font-family: 'Alegreya', serif;
 }
 .navbar {
   list-style-type: none;
