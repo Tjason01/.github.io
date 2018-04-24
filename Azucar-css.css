@@ -1,7 +1,8 @@
 body {
-/*background-color: white;*/
-background-color:rgb(182,193,255);
+  /*background-color: white;*/
+  background-color: rgb(182, 193, 255);
 }
+
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -9,29 +10,34 @@ background-color:rgb(182,193,255);
   overflow: hidden;
   background-color: #333;
 }
+
 .nav {
   float: left;
   padding: 14px 16px;
-  border-right:1px solid #bbb;
+  border-right: 1px solid #bbb;
   display: block;
   color: white;
 }
+
 .nav a {
   text-decoration: none;
   color: white;
-  float:left;
+  float: left;
   text-align: center;
 }
+
 .active {
   background-color: #4CAF50;
-  color: 	#00FF7F;
+  color: #00FF7F;
   color: white;
 }
-table, th , td {
+
+table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   margin: auto;
 }
+
 h3 {
   margin: 7px;
 }
