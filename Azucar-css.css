@@ -2,6 +2,7 @@ body {
   /*background-color: white;*/
   background-color: rgb(182, 193, 255);
   font-family: 'Alegreya', serif;
+  margin:15px;
 }
 
 .navbar {
