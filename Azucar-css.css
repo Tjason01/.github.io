@@ -40,10 +40,10 @@ table, th, td {
   margin: auto;
 }
 
-h2 {
+h3 {
   margin: 10px;
   text-align: center;
-  font-size: 26px;
+  font-size: 27px;
   padding: inherit;
 }
 
@@ -55,12 +55,110 @@ iframe {
 p {
   margin: auto;
   text-align: center;
-  padding: 16px;
-  font-size: 18px;
+  padding: 20px;
+  font-size: 22px;
 }
 
 .logo {
   display: block;
   margin-right: auto;
   margin-left: auto
+}
+
+/* This is for the slideshow*/
+
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  max-width: 850px;
+  max-height: 950px;
+  position: relative;
+  margin: auto;
+  padding: 15px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 20px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  position: absolute;
+  right: 20px;
+  border-radius: 2px 0 0 2px;
+}
+
+.prev {
+  position: absolute;
+  left: 20px;
+  border-radius: 2px 0 0 2px;
+}
+
+.numbertext {
+  color: #f2f2f5;
+  font-size: 20px;
+  padding: 5px 5px;
+  position: absolute;
+  top: 8px;
+}
+
+.text {
+  color: #55555;
+  font-size: 18px;
+  padding: 5px 5px;
+  position: flex;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0;
+  background-color: #bbbb;
+  border-radius: 30%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
