@@ -35,12 +35,24 @@ body {
   color: white;
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  margin: auto;
+/* This for the table */
+
+td{
+  text-align: center;
 }
 
+tr {
+}
+
+table {
+  margin:auto;
+  margin-top: 25px;
+}
+table, th, tr {
+  border: 1px solid #555;
+  border-collapse: collapse;
+  padding: 4px;
+}
 h3 {
   margin: 10px;
   text-align: center;
